@@ -1,0 +1,403 @@
+.navbar-container {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	opacity: 10%;
+	
+}
+#nav-link-container {
+	/*border-top: 7px double #289dcc;
+	border-bottom: 7px double #289dcc;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 5vh;
+	width: 100%;
+	margin-top: 50px;
+	background-color: #2a2a2a;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-top: 0px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.nav-link a {
+  float: center;
+  color: #289dcc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  vertical-align: center;
+}
+.nav-link a:hover {
+  background-color: #289dcc;
+  color: white;
+}
+
+.nav-link a.active {
+  background-color: #289dcc;
+  color: white;
+}
+
+
+#logo {
+	width: 700px;
+	height: 97px;
+	mix-blend-mode: darken;
+	margin-top: 36px;
+	cursor: pointer;
+}
+
+#logo:hover {
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.social-media {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+#fb {
+	height: 50px;
+	width: 50px;
+}
+#fb:hover {
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+#ig {
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+}
+#ig:hover {
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+#food {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 200%;
+	position: relative;
+	padding: 30px;
+}
+.food-box {
+	display: flex;
+	margin-top: 40px;
+	background-color: white;
+}
+
+#food1:hover {
+	opacity: 0;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	scale: 2;
+}
+
+#food2:hover {
+	opacity: 0;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	scale: 2;
+}
+
+#food3:hover {
+	opacity: 0;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	scale: 2;
+}
+.text1box {
+	height: 100px;
+	width: 300px;
+	text-align: center;
+}
+#text1 {
+	margin-top: -400px;
+	margin-left: 100px;
+	font-family: avenir-lt-w01_35-light1475496,sans-serif;
+}
+.text2box {
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: -90px;
+	margin-left: 500px;
+}
+#text2 {
+	font-family: avenir-lt-w01_35-light1475496,sans-serif;
+}
+.text3box {
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: -90px;
+	margin-left: 930px;
+}
+#text3 {
+	font-family: avenir-lt-w01_35-light1475496,sans-serif;
+
+}
+.bottom-pictures {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 950px;
+    margin-top: -215px;
+    padding: 20px;
+
+}
+
+body {
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* text css styling */
+#welcome {
+	font-size: 34px;
+	line-height: 1.2;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.paragraph-container {
+	display: flex;
+	flex-direction: column;
+	vertical-align: middle;
+	margin-right: 500px;
+	font-family: avenir-lt-w01_35-light1475496,sans-serif;
+	margin-left: 24px;
+	line-height: 23pt;
+
+}
+#introduction {
+	margin: 10px 10px 10px 10px;
+	width: 800px;
+	height: 120px;
+}
+
+#list-title {
+	background-color: #87c6da;
+	width: 90%;
+    color: #fff;
+    padding: 7px 12px;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -480px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#follow-title {
+	background-color: #87c6da;
+	width: 90%;
+    color: #fff;
+    padding: 7px 12px;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -240px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mypage-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 950px;
+	position: fixed;
+	margin-top: -440px;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0px;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+#mypage-1 {
+	margin-top: 10px;
+	border: 0;
+	color: #289dcc;
+	text-decoration: none;
+}
+
+#mypage-2 {
+	margin-top: 10px;
+}
+
+#mypage-3 {
+	margin-top: 10px;
+}
+
+#mypage-4 {
+	margin-top: 10px;
+}
+
+#mypage-5 {
+	margin-top: 10px;
+}
+#mypage-6 {
+	margin-top: 10px;
+}
+
+#mypage-7 {
+	margin-top: 10px;
+}
+
+#big-box {
+	background-color: white;
+}
+
+body {
+	background-color: #87c6da;
+}
+
+#blue:hover {
+	cursor: pointer;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	scale: 2;
+}
+
+#tomato:hover {
+	cursor: pointer;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	scale: 2;
+}
+
+
+.slideshow img {
+	width: 100%;
+}
+
+.slideshow {
+	width: 400px;
+	border: solid;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* ramen */
+#ramen {
+	display: flex;
+	flex-direction: column;
+	margin-top: -350px;
+	margin-left: 200px;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	animation: spin 50s linear 2;
+}
+
+@keyframes spin {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+
+
+
