@@ -50,7 +50,7 @@ body {
 	border-left: 5px solid grey;
 	border-right: 5px solid grey;
 	top: 5px; left: 5px;
-	animation: spincounterclockwire 2s linear 2;
+	animation: spincounterclockwise 2s linear 2;
 }
 
 @keyframes spinclockwise {
